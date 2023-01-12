@@ -13,6 +13,7 @@
 		67B1F0B9296FF35400EB9B7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F0B7296FF35400EB9B7F /* Main.storyboard */; };
 		67B1F0BB296FF35600EB9B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F0BA296FF35600EB9B7F /* Assets.xcassets */; };
 		67B1F0BE296FF35600EB9B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F0BC296FF35600EB9B7F /* LaunchScreen.storyboard */; };
+		67B1F0C6296FF41100EB9B7F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F0C5296FF41100EB9B7F /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		67B1F0BA296FF35600EB9B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67B1F0BD296FF35600EB9B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67B1F0BF296FF35600EB9B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B1F0C5296FF41100EB9B7F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				67B1F0BA296FF35600EB9B7F /* Assets.xcassets */,
 				67B1F0BC296FF35600EB9B7F /* LaunchScreen.storyboard */,
 				67B1F0BF296FF35600EB9B7F /* Info.plist */,
+				67B1F0C5296FF41100EB9B7F /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B1F0B6296FF35400EB9B7F /* ViewController.swift in Sources */,
+				67B1F0C6296FF41100EB9B7F /* Inceptionv3.mlmodel in Sources */,
 				67B1F0B2296FF35400EB9B7F /* AppDelegate.swift in Sources */,
 				67B1F0B4296FF35400EB9B7F /* SceneDelegate.swift in Sources */,
 			);
